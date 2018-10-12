@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<body class="container" ng-app="aplicacao">
+    <div class="header-inner">
+        <h1 style="text-align:center; color:blue;">
+            Bemvindo ao Curso de Desenvolvimento WEB com Angular JS
+        </h1>
+    </div>
+    
+       <div ng-view></div>
+        
+        
+        
+        <div class="container-fluid container-fixed-Lg footer">
+            <div class="glyphicon-copyright-mark sm-text-center">
+                <p class="glyphicon-resize-small no-margin pull-left sm-pull-reset">
+
+                </p>
+            </div>
+        </div>
+        
+        <script src="~/Scripts/angular.js"></script>
+        <script src="~/Scripts/ngResource.js"></script>
+        <script src="~/Scripts/angular-ui-router.js"></script>
+        <script src="~/Scripts/app.js"></script>        
+        <script src="~/Scripts/alunos-collection-service.js"></script>
+      
+        <script src="~/Scripts/primeiro-controller.js"></script>        
+        <script src="~/Scripts/nova-inscricao-controller.js"></script>   
+       
+        <script src="~/Scripts/previsao-tempo-controller.js"></script>
+       
+</body>
